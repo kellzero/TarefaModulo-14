@@ -1,0 +1,52 @@
+body{
+    font-family: "Almendra", serif;
+}
+
+.navbar{
+    background-color: #41dce1;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #0527c0;
+    color: #41dce1;
+}
+
+#cabecalho .nav .nav-link , 
+.navbar-brand,
+.navbar-brand:hover,
+.nav-produtos .nav-link.active:hover{
+    color: #0400df;
+}
+.section-title{
+    font-family: "Bebas Neue", sans-serif;
+}
+
+#bem-vindo, #produtos{
+    background-color: #e6fbff;
+}
+
+.text-colored{
+    color: #0400df;
+}
+.nav-produtos .nav-link.active ,
+#fale-conosco button{
+    background-color: #41dce1;
+    color: #0400df;
+}
+.nav-produtos .nav-link:hover{
+    color: #41dce1;
+}
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+.social-links a{
+    text-decoration: none;
+}
+
+@media (max-width: 767px){
+    .carousel-item img {
+        height: 280px;
+    }
+
+}
